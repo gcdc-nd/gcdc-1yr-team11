@@ -133,14 +133,25 @@
         .check1 {
             background-color: #fff;
             color: #000;
-            padding:10px 0px;
+            padding: 10px 0px;
         }
     </style>
 </head>
 
 <body>
-    <amp-story standalone title="Joy of Pets" publisher="AMP tutorials"
-        publisher-logo-src="assets/AMP-Brand-White-Icon.svg" poster-portrait-src="assets/cover.jpg">
+    <amp-story standalone supports-landscape title="KALAKRITI CRAFTS" publisher="LAZY 7"
+            publisher-logo-src="assets/AMP-Brand-White-Icon.svg" poster-landscape-src=" cover.jpeg">
+            <amp-story-page id="cover">
+                <amp-story-grid-layer template="fill">
+                    <amp-img src="assets/cover.jpeg" width="750" height="1280" layout="responsive">
+                    </amp-img>
+                </amp-story-grid-layer>
+                <amp-story-grid-layer template="vertical">
+                    <h1>KALAKRITI CRAFTS</h1>
+                    <p>By LAZY 7</p>
+                </amp-story-grid-layer>
+            </amp-story-page>
+        
         <amp-story-page id="solution-1">
             <amp-story-grid-layer template="vertical">
                 <div class="check">
@@ -160,7 +171,7 @@
                             Google Adds
                         </li>
                         <li>
-                            Google 
+                            Google
                         </li>
                         <li>
                             PubSub
@@ -178,7 +189,7 @@
                         <li>
                             Google Pay
                         </li>
-                        
+
                     </ul>
 
                 </div>
@@ -186,16 +197,7 @@
             </amp-story-grid-layer>
 
         </amp-story-page>
-        <amp-story-page id="solution-2">
-            <amp-story-grid-layer template="fill">
-                <amp-img src="assets/bird.jpg" width="720" height="1280" layout="responsive">
-                </amp-img>
-            </amp-story-grid-layer>
-            <amp-story-grid-layer template="vertical">
-                <h1>Solution-2</h1>
-                <p>By AMP Tutorials</p>
-            </amp-story-grid-layer>
-        </amp-story-page>
+
     </amp-story>
 </body>
 
